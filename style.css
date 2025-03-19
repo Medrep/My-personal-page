@@ -137,3 +137,13 @@ p {
         margin: 5px 0;
     }
 }
+/* Center all text within your container */
+.container, .container * {
+    text-align: center;
+}
+
+/* Change specific bio text to black */
+.bio.black-text {
+    color: #000;
+}
+
