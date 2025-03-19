@@ -137,13 +137,13 @@ p {
         margin: 5px 0;
     }
 }
-/* Center all text within your container */
-.container, .container * {
+/* Center all text within your wrapper */
+#wrapper, #wrapper * {
     text-align: center;
 }
 
-/* Change specific bio text to black */
-.bio.black-text {
-    color: #000;
+/* Change tagline color to black */
+.tagline {
+    color: #000 !important;
 }
 
