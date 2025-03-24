@@ -181,7 +181,15 @@
     <div class="section">
       <h2>Why Am I Offering Free Consulting?</h2>
       <p>I believe good business starts with good conversations. By sharing my experience, I can help companies avoid common outsourcing mistakes. And if you ever need help in the future, you’ll know where to find me. No sales pitch—just a chat.</p>
-      <a href="https://cal.com/alexkucheruk" class="cta-button" target="_blank">Book a Call with Me</a>
+      <a href="https://cal.com/alexkucheruk"
+   class="cta-button"
+   target="_blank"
+   onclick="gtag('event', 'book_call', {
+     'event_category': 'booking',
+     'event_label': 'cal.com/alexkucheruk'
+   })">
+   Book a Call with Me
+</a>
     </div>
   </div>
 
