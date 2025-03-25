@@ -21,8 +21,8 @@
 
     .container {
       width: 100%;
-      max-width: 600px;
-      margin: 20px auto;
+      max-width: 680px;
+      margin: 0 auto;
       background-color: #fff;
       border-radius: 10px;
       overflow: hidden;
@@ -127,8 +127,17 @@
         font-size: 15px;
       }
 
+      .container {
+        margin: 0;
+        border-radius: 0;
+      }
+
+      .intro {
+        padding: 40px 20px;
+      }
+
       .intro h1 {
-        font-size: 22px;
+        font-size: 28px;
       }
 
       .intro p {
@@ -144,15 +153,6 @@
       }
     }
   </style>
-  <!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RBR7PZBNB3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RBR7PZBNB3');
-</script>
 </head>
 <body>
 
@@ -183,17 +183,16 @@
       <h2>Why Am I Offering Free Consulting?</h2>
       <p>I believe good business starts with good conversations. By sharing my experience, I can help companies avoid common outsourcing mistakes. And if you ever need help in the future, you’ll know where to find me. No sales pitch—just a chat.</p>
       <a href="https://cal.com/alexkucheruk"
-   class="cta-button"
-   target="_blank"
-   onclick="gtag('event', 'book_call', {
-     'event_category': 'booking',
-     'event_label': 'cal.com/alexkucheruk'
-   })">
-   Book a Call with Me
-</a>
+         class="cta-button"
+         target="_blank"
+         onclick="gtag('event', 'book_call', {
+           'event_category': 'booking',
+           'event_label': 'cal.com/alexkucheruk'
+         })">
+         Book a Call with Me
+      </a>
     </div>
   </div>
 
 </body>
 </html>
-
