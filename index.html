@@ -32,7 +32,6 @@
         <div class="flex flex-col gap-6 sm:flex-row sm:items-start sm:gap-7">
           <!-- Left column: Photo + name (centered on mobile) -->
           <div class="shrink-0 mx-auto sm:mx-0">
-            <!-- Photo -->
             <img
               src="https://raw.githubusercontent.com/Medrep/My-personal-page/test/image02.jpg"
               alt="Alex Kucheruk"
@@ -41,14 +40,13 @@
               decoding="async"
             />
 
-            <!-- Name under photo -->
             <div class="mt-3 text-center text-base font-semibold text-white sm:text-lg">
               Alex Kucheruk
             </div>
           </div>
 
-          <!-- Right column: Headline + subheadline + CTA -->
-          <div class="min-w-0">
+          <!-- Right column -->
+          <div class="min-w-0 flex flex-col">
             <h1 class="text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
               Offshore hiring and vendor selection - without getting burned
             </h1>
@@ -58,14 +56,14 @@
               and don’t end up with “A-team in the pitch, B-team in delivery”.
             </p>
 
-            <div class="mt-6">
+            <div class="mt-6 w-full">
               <a
                 href="https://cal.com/alexkucheruk/30min"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="press inline-flex items-center justify-center rounded-lg bg-white px-4 py-3 text-sm font-semibold text-slate-900 hover:bg-white/90 focus:outline-none focus:ring-2 focus:ring-white/40"
+                class="press inline-flex w-full items-center justify-center rounded-lg bg-white px-4 py-3 text-sm font-semibold text-slate-900 hover:bg-white/90 focus:outline-none focus:ring-2 focus:ring-white/40"
               >
-                Book a 30-min preflight call
+                Book a 30-min call
               </a>
             </div>
           </div>
@@ -73,17 +71,17 @@
       </section>
 
       <!-- Who -->
-      <section id="who" class="mt-10 rounded-2xl border border-slate-200 bg-white px-6 py-7 lift">
+      <section id="who" class="mt-8 rounded-2xl border border-slate-200 bg-white px-6 py-7 lift">
         <h2 class="text-xl font-semibold tracking-tight">Who am I?</h2>
         <p class="mt-3 text-sm leading-relaxed text-slate-700 sm:text-[15px]">
           I work with remote engineering across EU/Eastern Europe, with perspective from both the buyer side and the
-          delivery/operations side. That gives me a realistic view of common failure modes — and what to check early,
+          delivery/operations side. That gives me a realistic view of common failure modes - and what to check early,
           before time and trust get burned.
         </p>
       </section>
 
       <!-- Help -->
-      <section id="help" class="mt-6 rounded-2xl border border-slate-200 bg-white px-6 py-7 lift">
+      <section id="help" class="mt-8 rounded-2xl border border-slate-200 bg-white px-6 py-7 lift">
         <h2 class="text-xl font-semibold tracking-tight">What I can help with</h2>
 
         <ul class="mt-4 space-y-3 text-sm leading-relaxed text-slate-700 sm:text-[15px]">
@@ -107,19 +105,19 @@
       </section>
 
       <!-- Ground rules -->
-      <section id="rules" class="mt-6 rounded-2xl border border-slate-200 bg-white px-6 py-7 lift">
+      <section id="rules" class="mt-8 rounded-2xl border border-slate-200 bg-white px-6 py-7 lift">
         <h2 class="text-xl font-semibold tracking-tight">Ground rules</h2>
 
         <ul class="mt-4 space-y-2 text-sm leading-relaxed text-slate-700 sm:text-[15px]">
           <li>• This is a private advisory conversation, not a sales call</li>
           <li>• You’ll get a clear risk check: what to ask, what to watch, what to check</li>
           <li>• Confidential by default. I don’t share your context or names.</li>
-          <li>• You’ll leave with clarity and a concrete angle — what to verify, and what to avoid.</li>
+          <li>• You’ll leave with clarity and a concrete angle - what to verify, and what to avoid.</li>
         </ul>
       </section>
 
       <!-- Booking -->
-      <section id="book" class="mt-10 rounded-2xl border border-slate-200 bg-white px-6 py-7">
+      <section id="book" class="mt-8 rounded-2xl border border-slate-200 bg-white px-6 py-7">
         <h2 class="text-xl font-semibold tracking-tight">Free 30-min call</h2>
 
         <p class="mt-3 text-sm leading-relaxed text-slate-700 sm:text-[15px]">
@@ -133,13 +131,13 @@
             rel="noopener noreferrer"
             class="press inline-flex w-full items-center justify-center rounded-lg bg-slate-900 px-4 py-3 text-sm font-semibold text-white hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-400/40"
           >
-            Book a 30-min preflight call
+            Book a 30-min call
           </a>
         </div>
       </section>
 
       <!-- Footer -->
-      <footer class="mt-10 border-t border-slate-200 pt-6 text-sm text-slate-500">
+      <footer class="mt-8 border-t border-slate-200 pt-6 text-sm text-slate-500">
         © <span id="year"></span> Alex Kucheruk
       </footer>
     </main>
